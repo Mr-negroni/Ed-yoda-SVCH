@@ -1,0 +1,167 @@
+Q1 - What kind of language is Python ?
+Python is :
+
+Interpreted (most of its implementations execute instructions directly, without previously compiling a program into machine level instructions)
+High-level programming language (provides strong abstraction from internal details of computer; and is human readable)
+General-purpose programming language (the language could be used to write wide variety of applications)
+Q2 - Why is Python called scripting language ?
+Python supports scripts: programs written for a Python run-time environment that automate the execution of tasks. These tasks could alternatively be executed one-by-one by a user.
+
+Q3 - What are the benefits of Python ?
+There are many benefits in using Python language. Some of them are :
+
+Syntax of Python is easy to learn.
+Python is a high-level programming language. So, it provides a good human readability.
+Python is cross-platform. Scripts written on an operating system could be run on another with ease.
+Python has an active community. Many resources and help is available online.
+Python is extensible. Large variety of third-party modules are available.
+Python is free. Python programming language can be used for projects without any cost.
+Q4 - Give a simple example for Python script.
+A simple example where a variable is initialized and printed to the console.
+
+i = 10
+print(i)
+Try Online
+Q5 - How to execute a Python Script ?
+If python is installed on the machine, command prompt or shell could be used for executing python scripts with python command.
+
+python fileName.py
+Q6 - What is Python Shell ?
+Python Shell is an interactive command line interface. Python statements can be executed using Python Shell.
+
+Q7 - How do you start Python shell ?
+python command will start python shell.
+
+$ python
+Python 3.5.2 (v3.5.2:4def2a2901a5, Jun 25 2016, 22:18:55) [MSC v.1900 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+Q8 - What is the command to get Python Version ?
+Python Version is displayed when Python Shell is started. Otherwise, without starting Python Shell,python –version  command can be used.
+
+$ python --version
+Python 3.5.2
+Q9 - Which coding convention is preferred for Python ?
+PEP-8[https://www.python.org/dev/peps/pep-0008/] is the style guide recommended by Python Organization.
+
+Q10 - What are the datatypes available in Python ?
+
+ 
+Following are the in-built datatypes in Python programming :
+
+Boolean
+Numeric
+int
+float
+long
+complex
+Sequence
+String
+List
+Tuple
+Set
+Mapping
+Dictionary
+Q11 - Which conditional statements are available in Python ?
+Conditional statements are the programming statements which alter the course of execution based on a condition.
+
+Like other functional programming languages, Python has following conditional statements.
+
+Python If
+Python If-Else
+Python For
+Python While
+Conditional Statements are also called Control Statements.
+
+Q12 - Which looping statements are available in Python ?
+Looping statements are those which repeat the execution of a set of statements in a cyclic manner based on a condition.
+
+Python For
+Python While
+Q13 - What is the syntax for Python If statement ?
+Python If statement contains if keyword, condition followed by colon symbol (:), and then the statements of if block with indentation.
+
+if condition:
+    statement1
+    statement2
+    statementN
+Try Online
+Condition should evaluate to a boolean value (true or false).
+
+Q14 - What is the syntax for Python For loop ?
+for variable in sequence:
+    statement1
+    statement2
+    statementN
+Try Online
+for is keyword
+sequence can be a list, string, typle or rance
+for ith iteration, the ith element of sequence is loaded to variable
+statements has to written with indentation
+Q15 - Give an example of Python Tuple ?
+Tuples are used to store values of different datatypes.
+
+tuple1 = ('Sarath', 'Varma', 1997, 'Kochi')
+tuple2 = (1, 2, 3, 4, 5 )
+Try Online
+Elements are separated by comma and are enclosed in parenthesis.
+
+Q16 - How do you access elements of Tuple ?
+Like in an Array, elements of Tuple can be accessed using index. Index of first element is 0, and index of last element in the tuple is (length of tuple – 1).
+
+Q17 - How are comments written in Python code ?
+Single Line Comments start with # followed by comment content.
+
+Multiple Line Comments are enclosed between triple single quotes or triple double quotes.
+
+# single line commenet
+ 
+'''Mulitpl
+   Line
+   Commnet'''
+ 
+"""Another
+   Multiple line
+   comment"""
+Try Online
+Comments improve the readability of a program.
+
+Q18 - Give an example of Python Class.
+Following is an example of Python Class.
+
+class Student:
+   'Common base class for all students'
+ 
+   def __init__(self, name, rollNumber):
+      self.name = name
+      self.rollNumber = rollNumber
+    
+   def displayStudent(self):
+      print "Name : ", self.name,  ", Roll Number: ", self.rollNumber
+Try Online
+The Student class contains a constructor for setting the initial state and a method to display student information.
+
+Q19 - Python 2.x or 3.x. Which one would you choose and why ?
+Python 2.x is legacy, Python 3.x is the present and future of the language.
+
+Q20 - How do you declare a variable in Python ?
+How do you convert float, int, complex value, tuple, list or dictionary to a string ? str() function can be used to convert other data type value to string. str() accepts float, int, complex value, tuple, list or dictionary as an argument and returns string value.
+
+Q21 - What are the mutable builtin datatypes available ?
+Mutable datatype are those
+
+List
+Sets
+Dictionaries
+Q22 - What are the immutable builtin datatypes available ?
+Immutable datatypes are those
+
+Strings
+Tuples
+Numbers
+Q23 - How to find substring of a string ?
+str[start_index:end_index] returns substring of a string, where
+
+str is the main string
+start_index is position of substring from which it starts in main string. If not provided, default value is 0.
+end_index is the ending index of substring in the main string. If not provided, default value is length of the main string.
